@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1>Simple calculator</h1>
+    <div id="calc">
+        <div id="display">0</div><br>
+        <div id="buttons">
+            <input type="button" onclick="math(1)" value="1" class="num">
+            <input type="button" onclick="math(2);" value="2" class="num">
+            <input type="button" onclick="math(3);" value="3" class="num">
+            <input type="button" onclick="math(4);" value="4" class="num">
+            <input type="button" onclick="math(5);" value="5" class="num">
+            <input type="button" onclick="math(6);" value="6" class="num">
+            <input type="button" onclick="math(7);" value="7" class="num">
+            <input type="button" onclick="math(8);" value="8" class="num">
+            <input type="button" onclick="math(9);" value="9" class="num">
+            <input type="button" onclick="math(0);" value="0" class="num">
+            <input type="button" onclick="math('.');" value=".">
+            <input type="button" onclick="math('+')" class="symbols"value="+">
+            <input type="button" onclick="math('-');" class="symbols"value="-">
+            <input type="button" onclick="math('/');" class="symbols"value="/">
+            <input type="button" onclick="math('%');" class="symbols"value="modulus">
+            <input type="button" onclick="math('*');" class="symbols"value="X">
+            <input type="button" onclick="clea();" class="symbols" value="clear">
+            <input type="button" onclick="answer();" class="symbols"value="=">
+        </div>
+    </div> </br>
+    <details> <summary>keybord keys</summary>
+        <p> To multiply press X </br>
+            use enter to show answer</br>to clear use delete <br>
+         to use modulus press M </p>
+      </details>
+ <script src="calc.js"></script>   
+</body>
+</html>
